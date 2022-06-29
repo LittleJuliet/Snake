@@ -53,7 +53,7 @@ class Snake {
     const snakeArr = [];
     // 蛇初始有4节身体,其中包括一节蛇头
     for (let i = 0; i < 4; i++) {
-      const rect = new Rect(i * 20, 0, 20, 20, '#000000');
+      const rect = new Rect(i * 20, 0, 20, 20, 'gray');
       snakeArr.unshift(rect);
     }
 
@@ -90,7 +90,7 @@ class Snake {
       this.head.y,
       this.head.w,
       this.head.h,
-      '#000000'
+      'gray'
     );
     this.snakeArr.splice(1, 0, moveRect);
 
