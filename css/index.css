@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.restart {
+  margin-left: 50px;
+}
+
+.canvas {
+  border: 1px solid #000000;
+  margin-left: 20px;
+}
